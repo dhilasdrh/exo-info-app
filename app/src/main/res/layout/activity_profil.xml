@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:padding="20dp"
+    tools:context=".Profil">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EXO"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="15dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="EXO adalah Boy Group yang dibentuk oleh SM Entertainment pada tahun 2011 dan resmi debut pada tahun 2012 dengan 12 anggota yang dibagi menjadi dua sub, yaitu EXO K dan EXO M, di mana masing-masing sub akan menyanyikan lagu dalam bahasa Korea dan Mandarin. Nama penggemar mereka adalah EXO-L."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginTop="10dp"
+                android:text="EXO meraih puncak kepopuleran dengan dirilisnya album pertama mereka, XOXO (2013), yang menelurkan singel hit 'Growl' Album ini terjual lebih dari satu juta kopi, menjadikan EXO sebagai musisi Korea dengan penjualan terbanyak dalam kurun waktu 12 tahun terakhir."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="8dp"
+                android:text="PERSONIL EXO"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/xiumin"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/xiumin" />
+                    <TextView
+                        android:id="@+id/text1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/xiumin"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/nama1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text1"
+                        android:layout_toRightOf="@id/xiumin"
+                        android:text="XIUMIN (Kim Minseok)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/ttl1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama1"
+                        android:layout_toRightOf="@id/xiumin"
+                        android:text="Seoul, 23 Maret 1990"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/posisi1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ttl1"
+                        android:layout_toRightOf="@id/xiumin"
+                        android:text="Lead Vocalist, Lead Dancer"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/suho"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/suho" />
+                    <TextView
+                        android:id="@+id/text2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/suho"
+                        android:text=" "
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/nama2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text2"
+                        android:layout_toRightOf="@id/suho"
+                        android:text="SUHO (Kim Junmyeon)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/ttl2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama2"
+                        android:layout_toRightOf="@id/suho"
+                        android:text="Seoul, 21 Mei 1991"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/posisi2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ttl2"
+                        android:layout_toRightOf="@id/suho"
+                        android:text="Leader, Lead Vocalist"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/lay"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/lay" />
+                    <TextView
+                        android:id="@+id/text3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/lay"
+                        android:text=" "
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/nama3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text3"
+                        android:layout_toRightOf="@id/lay"
+                        android:text="LAY (Zhang Yixing)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/ttl3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama3"
+                        android:layout_toRightOf="@id/lay"
+                        android:text="Changsha, 10 October 1991"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/posisi3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ttl3"
+                        android:layout_toRightOf="@id/lay"
+                        android:text="Main Dancer, Lead Vocalist"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/baekhyun"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/baekhyun" />
+                    <TextView
+                        android:id="@+id/text4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/baekhyun"
+                        android:text=" "
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/nama4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text4"
+                        android:layout_toRightOf="@id/baekhyun"
+                        android:text="BAEKHYUN (Byun Baekhyun)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/ttl4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama4"
+                        android:layout_toRightOf="@id/baekhyun"
+                        android:text="Seoul, 6 Mei 1992"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/posisi4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ttl4"
+                        android:layout_toRightOf="@id/baekhyun"
+                        android:text="Main Vocalist"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/chen"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/chen" />
+                    <TextView
+                        android:id="@+id/text5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/chen"
+                        android:text=" "
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/nama5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text5"
+                        android:layout_toRightOf="@id/chen"
+                        android:text="CHEN (Kim Jongdae)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/ttl5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama5"
+                        android:layout_toRightOf="@id/chen"
+                        android:text="Seoul, 21 September 1992"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/posisi5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ttl5"
+                        android:layout_toRightOf="@id/chen"
+                        android:text="Main Vocalist"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/chanyeol"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/chanyeol" />
+                    <TextView
+                        android:id="@+id/text6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/chanyeol"
+                        android:text=" "
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/nama6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text6"
+                        android:layout_toRightOf="@id/chanyeol"
+                        android:text="CHANYEOL (Park Chanyeol)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/ttl6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama6"
+                        android:layout_toRightOf="@id/chanyeol"
+                        android:text="Seoul, 27 November 1992"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/posisi6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ttl6"
+                        android:layout_toRightOf="@id/chanyeol"
+                        android:text="Main Rapper"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/kyungsoo"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/kyungsoo" />
+                    <TextView
+                        android:id="@+id/text7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/kyungsoo"
+                        android:text=" "
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/nama7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text7"
+                        android:layout_toRightOf="@id/kyungsoo"
+                        android:text="D.O. (Do Kyungsoo)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/ttl7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama7"
+                        android:layout_toRightOf="@id/kyungsoo"
+                        android:text="Seoul, 12 Januari 1993"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/posisi7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ttl7"
+                        android:layout_toRightOf="@id/kyungsoo"
+                        android:text="Main Vocalist"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/kai"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/kai" />
+                    <TextView
+                        android:id="@+id/text8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/kai"
+                        android:text=" "
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/nama8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text8"
+                        android:layout_toRightOf="@id/kai"
+                        android:text="KAI (Kim Jongin)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:id="@+id/ttl8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama8"
+                        android:layout_toRightOf="@id/kai"
+                        android:text="Seoul, 14 januari 1994"
+                        android:textSize="14sp" />
+                    <TextView
+                        android:id="@+id/posisi8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ttl8"
+                        android:layout_toRightOf="@id/kai"
+                        android:text="Main Dancer, Rapper, Vocalist"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/sehun"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_marginRight="10dp"
+                        android:src="@drawable/sehun" />
+                    <TextView
+                        android:id="@+id/text9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/sehun"
+                        android:text=" "
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/nama9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/text9"
+                        android:layout_toRightOf="@id/sehun"
+                        android:text="SEHUN (Oh Sehun)"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/ttl9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/nama9"
+                        android:layout_toRightOf="@id/sehun"
+                        android:text="Seoul, 12 April 1994"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/posisi9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/ttl9"
+                        android:layout_toRightOf="@id/sehun"
+                        android:text="Lead Dancer, Rapper"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MANTAN PERSONIL EXO"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/kris" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="KRIS (Wu Yifan)"
+                        android:textSize="11sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/luhan" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="LUHAN (Lu Han)"
+                        android:textSize="11sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_weight="1">
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="70dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/tao" />
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="TAO (Huang Zhitao)"
+                        android:textSize="11sp"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
